@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="a88c1c90-f1a3-4835-be8c-fcc82167b8d2" solutionId="a88c1c90-f1a3-4835-be8c-fcc82167b8d2" resetWebServer="false" sharePointProductVersion="15.0" name="VendorsMenuItemsApp" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="d8b9e6f1-da50-4563-9cf6-803f2cf87bad" />
+  </features>
+</package>

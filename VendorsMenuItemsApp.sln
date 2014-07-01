@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VendorsMenuItemsApp", "VendorsMenuItemsApp\VendorsMenuItemsApp.csproj", "{BD600E84-3908-4D93-9710-5B43EEE7F490}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VendorsMenuItemsAppWeb", "VendorsMenuItemsAppWeb\VendorsMenuItemsAppWeb.csproj", "{F7C1A977-B602-492E-A29C-C35946446479}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD600E84-3908-4D93-9710-5B43EEE7F490}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD600E84-3908-4D93-9710-5B43EEE7F490}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD600E84-3908-4D93-9710-5B43EEE7F490}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{BD600E84-3908-4D93-9710-5B43EEE7F490}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD600E84-3908-4D93-9710-5B43EEE7F490}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD600E84-3908-4D93-9710-5B43EEE7F490}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{F7C1A977-B602-492E-A29C-C35946446479}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7C1A977-B602-492E-A29C-C35946446479}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7C1A977-B602-492E-A29C-C35946446479}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7C1A977-B602-492E-A29C-C35946446479}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Event (0x0102) -->
+  <ContentType ID="0x0102008DEBB6A82D6640A980CD501B6F0C027C" Name="VendorDailyMenuCT" Group="Vendor Menu Content Types" Description="My Content Type" Inherits="FALSE" Version="0">
+    <FieldRefs>
+
+      <FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" Hidden="TRUE"  Required="FALSE"/>
+      <FieldRef ID="{288f5f32-8462-4175-8f09-dd7ba29359a9}" Name="Location" Hidden="TRUE"  Required="FALSE"/>
+      <FieldRef ID="{00B58449-0437-468D-8ACB-4D6C57BF10FB}" Name="Vendor_Location" />
+      
+      <FieldRef ID="{9E8B7005-755E-4091-9399-7DC6D345B40D}" DisplayName="Vendor Name" Required="TRUE" Name="Vendor_Names_Item" />
+      <FieldRef ID="{64cd368d-2f95-4bfc-a1f9-8d4324ecb007}" Name="EventDate" />
+      <FieldRef ID="{2684f9f2-54be-429f-ba06-76754fc056bf}" Name="EndDate" />
+      <FieldRef ID="{9da97a8a-1da5-4a77-98d3-4bc10456e700}" Name="Description" Hidden="TRUE" />
+      <FieldRef ID="{D052123E-0514-4792-B035-AA8389D562DF}" DisplayName="BreakFast Menu" Required="FALSE" Description="Enter MenuItems Seperated by Semicolon(Ex:Dosa,Poori)" Name="Breakfast_Menu_Items" />
+      <FieldRef ID="{CE50EBCB-7B4F-4351-BEB5-4DFCC8514EBF}" DisplayName="Lunch Menu" Required="FALSE" Description="Enter MenuItems Seperated by Semicolon(Ex:Burger,Meals,Combo)" Name="Lunch_Menu_Items" />
+      <FieldRef ID="{CB5A8EC7-4418-4EEC-93AF-DB512E40222F}" DisplayName="Dinner Menu" Required="FALSE" Description="Enter MenuItems Seperated by Semicolon(Ex:Chapati,Combo)" Name="Dinner_Menu_Items" />
+      <FieldRef ID="{891EA5F4-D663-4EC3-AD55-5D56C41418DE}" DisplayName="Common Menu" Required="FALSE" Description="Enter MenuItems Seperated by Semicolon(Ex:IceCream,Juice)" Name="Common_Menu_Items" />
+      <FieldRef ID="{7d95d1f4-f5fd-4a70-90cd-b35abc9b5bc8}" Name="fAllDayEvent"  />
+      <FieldRef ID="{f2e63656-135e-4f1c-8fc2-ccbe74071901}" Name="fRecurrence" />
+      <FieldRef ID="{08fc65f9-48eb-4e99-bd61-5946c439e691}" Name="WorkspaceLink" />
+      <FieldRef ID="{5d1d4e76-091a-4e03-ae83-6a59847731c0}" Name="EventType" />
+      <FieldRef ID="{63055d04-01b5-48f3-9e1e-e564e7c6b23b}" Name="UID" />
+      <FieldRef ID="{dfcc8fff-7c4c-45d6-94ed-14ce0719efef}" Name="RecurrenceID" />
+      <FieldRef ID="{b8bbe503-bb22-4237-8d9e-0587756a2176}" Name="EventCanceled" />
+      <FieldRef ID="{4d54445d-1c84-4a6d-b8db-a51ded4e1acc}" Name="Duration" />
+      <FieldRef ID="{d12572d0-0a1e-4438-89b5-4d0430be7603}" Name="RecurrenceData" />
+      <FieldRef ID="{6cc1c612-748a-48d8-88f2-944f477f301b}" Name="TimeZone" />
+      <FieldRef ID="{c4b72ed6-45aa-4422-bff1-2b6750d30819}" Name="XMLTZone" />
+       <FieldRef ID="{9b2bed84-7769-40e3-9b1d-7954a4053834}" Name="MasterSeriesItemID" />
+      <FieldRef ID="{881eac4a-55a5-48b6-a28e-8329d7486120}" Name="Workspace" />
+      <FieldRef ID="{8137f7ad-9170-4c1d-a17b-4ca7f557bc88}" Name="ParticipantsPicker" />
+      <FieldRef ID="{6df9bd52-550e-4a30-bc31-a4366832a87d}" Name="Category" />
+      <!--<FieldRef ID="{a4e7b3e1-1b0a-4ffa-8426-c94d4cb8cc57}" Name="Facilities" />
+      <FieldRef ID="{393003f9-6ccb-4ea9-9623-704aa4748dec}" Name="FreeBusy" />
+      <FieldRef ID="{d8cd5bcf-3768-4d6c-a8aa-fefa3c793d8d}" Name="Overbook" />
+      <FieldRef ID="{453c2d71-c41e-46bc-97c1-a5a9535053a3}" Name="Participants" />-->
+
+
+    
+     
+    </FieldRefs>
+  </ContentType>
+</Elements>

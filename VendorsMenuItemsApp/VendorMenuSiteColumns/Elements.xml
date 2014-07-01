@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Field ID="{9E8B7005-755E-4091-9399-7DC6D345B40D}" Type="Choice" Name="Vendor_Names_Item" Required="TRUE" LinkToItem="TRUE"  Group="Vendor Menu Site Columns" DisplayName="Vendor Name" >
+    <Default></Default>
+    <CHOICES>
+     </CHOICES>
+  </Field>
+
+  <Field ID="{00B58449-0437-468D-8ACB-4D6C57BF10FB}" Type="Choice" Name="Vendor_Location" Required="TRUE"   Group="Vendor Menu Site Columns" DisplayName="Vendor Location" >
+    <Default></Default>
+    <CHOICES>
+    </CHOICES>
+  </Field>
+  
+
+  <Field ID="{D052123E-0514-4792-B035-AA8389D562DF}"
+         Type="Note"
+         DisplayName="BreakFast Menu"
+        
+         RichText="FALSE"
+         
+         IsolateStyles="TRUE"
+         Required="FALSE"
+         Name="Breakfast_Menu_Items"
+         Description="Enter MenuItems Seperated by Comma(Ex:Dosa,Poori)"
+         Group="Vendor Menu Site Columns"/>
+  <Field ID="{CE50EBCB-7B4F-4351-BEB5-4DFCC8514EBF}"
+        Type="Note"
+        DisplayName="Lunch Menu"
+       
+        RichText="FALSE"
+        
+        IsolateStyles="TRUE"
+        Required="FALSE"
+        Name="Lunch_Menu_Items"
+        Description="Enter MenuItems Seperated by Comma(Ex:Burger,Meals,Combo)"
+        Group="Vendor Menu Site Columns"/>
+  <Field ID="{CB5A8EC7-4418-4EEC-93AF-DB512E40222F}"
+        Type="Note"
+        DisplayName="Dinner Menu"
+     
+        RichText="FALSE"
+        
+        IsolateStyles="TRUE"
+        Required="FALSE"
+        Name="Dinner_Menu_Items"
+        Description="Enter MenuItems Seperated by Comma(Ex:Chapati,Combo)"
+        Group="Vendor Menu Site Columns"/>
+  <Field ID="{891EA5F4-D663-4EC3-AD55-5D56C41418DE}"
+      Type="Note"
+      DisplayName="Common Menu"
+     
+      RichText="FALSE"
+      
+      IsolateStyles="TRUE"
+      Required="FALSE"
+      Name="Common_Menu_Items"
+      Description="Enter MenuItems Seperated by Comma(Ex:IceCream,Juice)"
+      Group="Vendor Menu Site Columns"/>
+
+</Elements>

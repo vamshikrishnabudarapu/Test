@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="VendorsMenuItemsAppWeb.Services.ListRemoteEventReceiver" CodeBehind="ListRemoteEventReceiver.svc.cs" %>

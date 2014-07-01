@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="4c9bec30-2f17-4a15-a4d1-7bb7a67944ed" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="https://verificationservice.officeapps.live.com/ova/verificationagent.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="verificationagent.xsd" MetadataType="Schema" ID="b22cb5b8-6823-49b0-8b7f-29c4cd7468c5" SourceId="1" SourceUrl="https://verificationservice.officeapps.live.com/ova/verificationagent.svc?xsd=xsd2" />
+    <MetadataFile FileName="verificationagent1.xsd" MetadataType="Schema" ID="a68c862d-37eb-4b1e-810b-3db023438646" SourceId="1" SourceUrl="https://verificationservice.officeapps.live.com/ova/verificationagent.svc?xsd=xsd1" />
+    <MetadataFile FileName="verificationagent2.xsd" MetadataType="Schema" ID="3a2b1f4d-c3c7-4054-a676-aac0f17ab9a8" SourceId="1" SourceUrl="https://verificationservice.officeapps.live.com/ova/verificationagent.svc?xsd=xsd0" />
+    <MetadataFile FileName="VerificationAgent.wsdl" MetadataType="Wsdl" ID="8393cfef-3a47-42eb-9b32-9ac359fd4ea7" SourceId="1" SourceUrl="https://verificationservice.officeapps.live.com/ova/verificationagent.svc" />
+    <MetadataFile FileName="verificationagent3.xsd" MetadataType="Schema" ID="8ca47f1f-bd32-4636-88b8-a5c97580195f" SourceId="1" SourceUrl="https://verificationservice.officeapps.live.com/ova/verificationagent.svc?xsd=xsd3" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
